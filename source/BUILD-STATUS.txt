@@ -1,0 +1,17 @@
+DropAll 1.0.0+1.21.11 — Build status
+
+SUCCESS: Java compilation, resource processing, production JAR remapping,
+source JAR remapping and Gradle wrapper generation.
+Gradle reported BUILD SUCCESSFUL; 8 tasks executed.
+Built using Java 21, Gradle 9.2.1, Fabric Loom 1.14.10,
+Yarn 1.21.11+build.6 and Fabric Loader 0.18.4.
+Verified mod metadata, compiled classes, remapped injection names and ZIP integrity.
+
+NOT TESTED: Minecraft launch, actual gameplay and multiplayer behavior.
+No automated gameplay/unit tests were executed (Gradle test: NO-SOURCE).
+See README.md for the manual gameplay checklist and supported scope.
+
+Build-host note: This restricted host denies Unix-domain socket probing.
+The local Loom capability probe was adjusted to report unsupported on IOException.
+This environment-only adjustment is not in the mod or delivered project.
+The delivered source uses the standard Fabric Loom release.

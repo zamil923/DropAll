@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "dropall",
+  "version": "${version}",
+  "name": "DropAll",
+  "description": "Alt+Q over a stack drops matching item types from your inventory and the open container.",
+  "authors": ["Zamil"],
+  "environment": "client",
+  "license": "All-Rights-Reserved",
+  "mixins": ["dropall.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "1.21.11",
+    "java": ">=21"
+  }
+}
